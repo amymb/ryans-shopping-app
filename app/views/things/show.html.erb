@@ -1,0 +1,7 @@
+<%=@thing.item%>
+<%=@thing.priority%>
+<%=@thing.description%>
+<%=@thing.estimated_cost%>
+<%=link_to "Edit Item", edit_thing_path%>
+<%=link_to "Delete Item", @thing, method: :delete%>
+<%=link_to "Home", things_path%>

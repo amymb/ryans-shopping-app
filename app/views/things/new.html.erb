@@ -1,0 +1,15 @@
+<%=form_for @thing do |thing|%>
+<%=thing.label :item%>
+<%=thing.text_field :item%>
+<br>
+<%=thing.label :priority%>
+<%=thing.text_field :priority%>
+<br>
+<%=thing.label :description %>
+<%=thing.text_area :description%>
+<br>
+<%=thing.label :estimated_cost %>
+<%=thing.number_field :estimated_cost%>
+<br>
+<%=thing.submit "Add item to list"%>
+<%end%>

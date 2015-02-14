@@ -1,0 +1,8 @@
+<%@things.each do |thing|%>
+  <%=link_to thing.item, thing%>
+  <br>
+
+  <br>
+<%end%>
+<br>
+<%=link_to "Add Item", new_thing_path%>
